@@ -22,7 +22,7 @@ class CircleDrawer(QtWidgets.QMainWindow):
         painter = QPainter(self)
         painter.setRenderHint(QPainter.RenderHint.Antialiasing)
         for x, y, diameter in self.circles:
-            painter.setBrush(QColor("purple"))
+            painter.setBrush(QColor("yellow"))
             painter.drawEllipse(x, y, diameter, diameter)
 
 
